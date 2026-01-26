@@ -11,7 +11,7 @@ This repository contains the implementation for a PPO training pipeline using th
 | `run.bash` | **Main Execution Entry**: The final script to trigger the training process. |
 | `examples/run.sh` | **Example Script**: Shell script providing training configurations. |
 | `pipeline.py` | **Deployment Script**: Deploys the PRM model (must run before training). |
-| `verl/trainer/ppo/my_reward.py` | **Reward Logic**: Custom PRM reward function implementation. |
+| `verl/trainer/ppo/my_reward.py` | **Reward Logic**: Custom Step-level reward function implementation. |
 | `verl/trainer/ppo/ray_trainer.py` | **Core Trainer**: Ray-based PPO trainer implementation. |
 | `verl/trainer/main_ppo.py` | **Main Entry**: Orchestration logic for the PPO training loop. |
 | `mydata/train.parquet` | **Dataset**: Default training data in Parquet format. |
@@ -19,9 +19,6 @@ This repository contains the implementation for a PPO training pipeline using th
 ---
 
 ## 🚀 Workflow & Usage
-
-[Image of PPO Reinforcement Learning with Process Reward Model architecture]
-
 Follow these steps in order to start the training:
 
 ### 1. Data Preparation
