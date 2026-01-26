@@ -30,10 +30,10 @@ Ensure your training data is located at the following path:
 
 ### 2. PRM Model Deployment
 Before starting the training, you must deploy the PRM service to handle reward requests.
-```bash
 python3 pipeline.py
 
 ### 3. Start Training
 Once the PRM service is live, execute the main bash script to initiate the PPO training process:
-```bash
 bash run.bash
+
+```bash
