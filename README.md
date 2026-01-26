@@ -1,6 +1,6 @@
 # FaithRL (Verl Framework)
 
-This repository contains the implementation for a PPO training pipeline using the **Verl** framework, integrated with a **Process Reward Model (PRM)**.
+This repository contains the implementation for a GRPO training pipeline using the **Verl** framework, integrated with a **Process Reward Model (PRM)**.
 
 ---
 
