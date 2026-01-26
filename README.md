@@ -35,5 +35,4 @@ python3 pipeline.py
 ### 3. Start Training
 Once the PRM service is live, execute the main bash script to initiate the PPO training process:
 bash run.bash
-
-```bash
+```
