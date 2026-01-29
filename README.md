@@ -25,6 +25,9 @@ book QA datasets.<br><br>
 Follow these steps in order to start the training:
 
 ### 1. Data Preparation
+The initial data processing is handled by the script located at:
+* **Path**: `/mydata/dataset.py`
+  
 Ensure your training data is located at the following path:
 * **Path**: `/mydata/train.parquet`
 
@@ -34,7 +37,7 @@ Before starting the training, download and deploy the PRM service to handle rewa
 Download PRM model from [HHEM-2.1](https://huggingface.co/vectara/hallucination_evaluation_model).
 Then, deploy the PRM service using the following command:
 
-* **python**: /examples/pipeline.py
+* **path**: /examples/pipeline.py
 
 ### 3. Start Training
 Once the PRM service is live, execute the main bash script to initiate the PPO training process:
