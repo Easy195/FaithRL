@@ -34,7 +34,7 @@ Before starting the training, download and deploy the PRM service to handle rewa
 Download PRM model from [HHEM-2.1](https://huggingface.co/vectara/hallucination_evaluation_model).
 Then, deploy the PRM service using the following command:
 
-* **python3** * pipeline.py
+* **python**:  pipeline.py
 
 ### 3. Start Training
 Once the PRM service is live, execute the main bash script to initiate the PPO training process:
