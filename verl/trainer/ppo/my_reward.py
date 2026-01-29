@@ -329,7 +329,7 @@ def extract_last_bracket_content(text: str) -> str:
     if raw_content.startswith("[") and raw_content.endswith("]"):
         raw_content = raw_content[1:-1].strip()
 
-    return raw_content                           # 没有则返回空
+    return raw_content                         
 
 class HTTPRMReward:
     def __init__(
@@ -439,7 +439,7 @@ class HTTPRMReward:
         full_responses_list = [p + r for p, r in zip(prefix_response, output_list)]
 
         batch_processed_data = []
-        all_f1_scores = []  # 收集 Batch 内所有样本的 F1
+        all_f1_scores = []  
 
         for i, (context_raw, output_text, full_text, step, prefix) in enumerate(zip(
             context_list, output_list, full_responses_list, step_list, prefix_response
