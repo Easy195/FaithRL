@@ -32,8 +32,8 @@ Ensure your training data is located at the following path:
 Before starting the training, download and deploy the PRM service to handle reward requests.
 
 Download PRM model from [HHEM-2.1](https://huggingface.co/vectara/hallucination_evaluation_model).
-
 Then, deploy the PRM service using the following command:
+
 python3 pipeline.py
 
 ### 3. Start Training
