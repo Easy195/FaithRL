@@ -2,7 +2,7 @@
 ---
 In this paper, we propose **FaithRL**, a reinforcement learning framework for mitigating faithfulness hallucinations in SRMs. By combining implicit step-level rewards from dynamic truncated resampling with explicit PRM-based rewards, FaithRL provides fine-grained supervision to penalize unfaithful CoT reasoning. FaithRL achieves superior performance across multiple SRMs and open-
 book QA datasets.
-[(./main.pdf)]
+[![An overview of the \textbf{FaithRL} framework. ](./main.pdf)]
 ## 📂 Project Structure
 
 | File/Directory | Description |
