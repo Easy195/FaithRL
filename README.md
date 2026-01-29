@@ -40,6 +40,6 @@ Then, deploy the PRM service using the following command:
 * **path**: `/examples/pipeline.py`
 
 ### 3. Start Training
-Once the PRM service is live, execute the main bash script to initiate the PPO training process:
-bash run.bash
+Once the PRM service is live, execute the main bash script to initiate the GRPO training process:
+* **Path**: `/examples/run.bash`
 ```
