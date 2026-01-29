@@ -11,13 +11,11 @@ book QA datasets.<br><br>
 
 | File/Directory | Description |
 | :--- | :--- |
-| `run.bash` | **Main Execution Entry**: The final script to trigger the training process. |
 | `examples/run.sh` | **Example Script**: Shell script providing training configurations. |
 | `pipeline.py` | **Deployment Script**: Deploys the PRM model (must run before training). |
 | `verl/trainer/ppo/my_reward.py` | **Reward Logic**: Custom Step-level reward function implementation. |
 | `verl/trainer/ppo/ray_trainer.py` | **Core Trainer**: Ray-based GRPO trainer implementation. |
 | `verl/trainer/main_ppo.py` | **Main Entry**: Orchestration logic for the GRPO training loop. |
-| `mydata/train.parquet` | **Dataset**: Default training data in Parquet format. |
 
 ---
 
